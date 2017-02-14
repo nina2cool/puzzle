@@ -34,7 +34,7 @@ $(document).ready(function() {
     var todayDayOfWeek = today.getDay() + 1;
 
 
-    var excludeDateArray = [];
+    var excludeDateArray = [new Date(2017, 2, 11)];
     var nextThreeSaturdaysArray = [];
 
     // add excluded dates to this array.  Subtract 1 from the month number
